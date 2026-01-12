@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-cicd-sample/static/css/main.eb505b8d.css",
+    "main.js": "/react-cicd-sample/static/js/main.29dbf684.js",
+    "index.html": "/react-cicd-sample/index.html",
+    "main.eb505b8d.css.map": "/react-cicd-sample/static/css/main.eb505b8d.css.map",
+    "main.29dbf684.js.map": "/react-cicd-sample/static/js/main.29dbf684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb505b8d.css",
+    "static/js/main.29dbf684.js"
+  ]
+}
