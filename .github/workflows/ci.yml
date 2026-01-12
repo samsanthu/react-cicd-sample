@@ -1,4 +1,4 @@
-name: React CI Pipeline
+name: React CI/CD Pipeline
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,3 +23,7 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        run: npm run deploy
