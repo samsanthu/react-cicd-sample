@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-cicd-sample">
       <div className="App">
         <Header />
         <main className="main-content">
